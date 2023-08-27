@@ -1,0 +1,9 @@
+#bech net3arfu 3al mosta5dim
+name = input("write a your name : \n ")
+print("hello ",name,"  marehbe bik")
+
+"""
+multiline comment
+as much as you want
+
+"""

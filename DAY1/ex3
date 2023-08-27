@@ -1,0 +1,19 @@
+def swap_listes(liste1,liste2):
+    print( "Before swap : \n ")
+    print("liste 1 : ",liste1)
+    print("liste 2 : ",liste2)
+    print("\n\nAfter swap : \n")
+    temp=liste1[0]
+    liste1[0]=liste2[0]
+    liste2[0]=temp
+
+    temp=liste1[2]
+    liste1[2]=liste2[2]
+    liste2[2]=temp
+    print("liste 1 ",liste1)
+    print("liste 2 ",liste2)
+
+liste1=[7,8,9]
+liste2=[10,11,12]
+swap_listes(liste1,liste2)
+

@@ -1,0 +1,6 @@
+names_files=open(r"DAY1/day4/day5/day6/day7/names.txt",'r')
+#content=names_files.read()
+#lines=names_files.readlines()
+line=names_files.readline()
+#print("content : ",content)
+print("\nline : \n",line)
